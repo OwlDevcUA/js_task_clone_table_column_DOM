@@ -1,8 +1,8 @@
 'use strict';
 
-const tabel = document.querySelector('table');
+const table = document.querySelector('table');
 
-const rows = Array.from(tabel.rows);
+const rows = Array.from(table.rows);
 
 rows.forEach((row) => {
   const secondCell = row.cells[1];
